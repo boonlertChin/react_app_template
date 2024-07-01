@@ -36,7 +36,7 @@ export const AuthWrapper = () => {
           
                <AuthContext.Provider value={{user, login, logout}}>
                     <>
-                         <RenderHeader />
+                         {/* <RenderHeader /> */}
                          <RenderMenu />
                          <RenderRoutes />
                     </>
